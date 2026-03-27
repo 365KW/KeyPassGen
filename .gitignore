@@ -1,0 +1,5 @@
+# Modern IDE
+.idea/
+
+#compile_files
+*.o
