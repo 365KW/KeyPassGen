@@ -1,16 +1,14 @@
 #ifndef KEY_EVENT_H
 #define KEY_EVENT_H
 
-#include <stdio.h>
 #include <termios.h>
-#include <unistd.h>
 
-static struct termios initial_settings, new_settings;
 extern int peek_character;
+static struct termios initial_settings, new_settings;
 
 void ke_init(void);
 void ke_close(void);
-int  ke_kbhit(void);
-int  ke_readch(void);
+int ke_kbhit(void);
+int ke_readch(void);
 
 #endif //KEY_EVENT_H

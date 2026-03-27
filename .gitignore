@@ -3,3 +3,6 @@
 
 #compile_files
 *.o
+*.out
+
+.gitignore~
